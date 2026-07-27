@@ -41,13 +41,8 @@ brew update && brew upgrade
 ## Available packages
 
 ```sh
-# Interactive terminal client for composing AI agents with MCP tools
-brew trust --formula mezmo/tap/aura
-brew install mezmo/tap/aura
-
-# OpenAI-compatible API server for AURA agents
-brew trust --formula mezmo/tap/aura-web-server
-brew install mezmo/tap/aura-web-server
+brew install mezmo/tap/aura            # Interactive terminal client for composing AI agents with MCP tools
+brew install mezmo/tap/aura-web-server # OpenAI-compatible API server for AURA agents
 ```
 
 Only generally available (GA) releases are published here. Prereleases such as
