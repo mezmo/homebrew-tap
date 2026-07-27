@@ -1,28 +1,28 @@
 class Aura < Formula
   desc "Interactive terminal client for composing AI agents with MCP tools"
   homepage "https://github.com/mezmo/aura"
-  version "0.1.1"
+  version "0.1.2"
   license "Apache-2.0"
 
   on_macos do
     on_arm do
       url "https://github.com/mezmo/aura/releases/download/v#{version}/aura-darwin-arm64"
-      sha256 "2c95b3320c4b803711e092d010ce76dd1b114ff5050b59b417b6cd1247502739"
+      sha256 "0fc4b729eec6ff25dff3af85bbb8e0097d68b15be978ebccd307353df279c9a9"
     end
     on_intel do
       url "https://github.com/mezmo/aura/releases/download/v#{version}/aura-darwin-amd64"
-      sha256 "edbccbc50019ec2b0d94d0299617d274f874c70ba059fa46d8f5e1c9a46ad808"
+      sha256 "72c80e9788c5827b9290f1a13b460d43a4fb75b85cf2ed931cf9f3bc3dcd823c"
     end
   end
 
   on_linux do
     on_arm do
       url "https://github.com/mezmo/aura/releases/download/v#{version}/aura-linux-arm64"
-      sha256 "3e411623933fd4f83de499b37ea782538eaf63ccc83cbb4aee874fff56ff34d4"
+      sha256 "e5edad2e0b5db8ba50839ecb8e1242f281a4a5bf3926edd3bc025a203ec3a961"
     end
     on_intel do
       url "https://github.com/mezmo/aura/releases/download/v#{version}/aura-linux-amd64"
-      sha256 "083910c134e297d074e6d94151be026a7a23213e9b2f520be96843465a3502db"
+      sha256 "28093e49f847b4109ddfd9c990e6f86a20f67d1b6ab1470ef88cf85fc4448fb8"
     end
   end
 
