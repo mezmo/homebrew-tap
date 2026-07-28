@@ -1,28 +1,28 @@
 class AuraWebServer < Formula
   desc "OpenAI-compatible API server for AURA agents"
   homepage "https://github.com/mezmo/aura"
-  version "0.1.2"
+  version "0.1.3"
   license "Apache-2.0"
 
   on_macos do
     on_arm do
       url "https://github.com/mezmo/aura/releases/download/v#{version}/aura-web-server-darwin-arm64"
-      sha256 "4339449dd7933b305cfa60a242f5878fb8ee17172ee78d3013cdbcc6ce4299e7"
+      sha256 "5d7d09f78ac009964615bf8569c9c19271e43267e0fb6ba677bc516d79ca6c55"
     end
     on_intel do
       url "https://github.com/mezmo/aura/releases/download/v#{version}/aura-web-server-darwin-amd64"
-      sha256 "cb0032a561f26c7e5f1ee57fb5414d61988e6170dc8391a587527e541d5ca301"
+      sha256 "9adc7473a5c1d8bdf78923943348115acee6a1debf324975e8eabe6e885a0b57"
     end
   end
 
   on_linux do
     on_arm do
       url "https://github.com/mezmo/aura/releases/download/v#{version}/aura-web-server-linux-arm64"
-      sha256 "3e9e17e9006270a82554390bd2f2f342e87c582891b5ee2eba6183c412b3e0a3"
+      sha256 "a85595bbd4a6158d9ae2e0bff00493862e42a8d44da64e8196366aeb09e7ae36"
     end
     on_intel do
       url "https://github.com/mezmo/aura/releases/download/v#{version}/aura-web-server-linux-amd64"
-      sha256 "2bbf0875749203df81ad755808bdd2bbfad0857435c687105ba80a99801a2fa3"
+      sha256 "fedf6185a8db9db7a8dadc14eb8af890788129cbb12b7e130aed097d7c54dec0"
     end
   end
 
