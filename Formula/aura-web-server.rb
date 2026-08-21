@@ -5,23 +5,23 @@ class AuraWebServer < Formula
 
   on_macos do
     on_arm do
-      url "https://github.com/mezmo/aura/releases/download/v0.2.2/aura-web-server-darwin-arm64"
-      sha256 "f41c72173dd5387f47569e838ba61af3ddd490fb1cfbb8a5b3cda4d63c9ea83f"
+      url "https://github.com/mezmo/aura/releases/download/v0.2.3/aura-web-server-darwin-arm64"
+      sha256 "46e79f83d37aac2e3a2336de8a9167e4d3ce19202b7ea34fc4c5852fd98b982e"
     end
     on_intel do
-      url "https://github.com/mezmo/aura/releases/download/v0.2.2/aura-web-server-darwin-amd64"
-      sha256 "0e36b89a102fbbaac8834f25a3036d568e4824e5bff479635f05f8fe580ba4bc"
+      url "https://github.com/mezmo/aura/releases/download/v0.2.3/aura-web-server-darwin-amd64"
+      sha256 "d811dde4110b217e3e8b6f6208501a2b8dc56999f0759e45959911d18adc9ce2"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/mezmo/aura/releases/download/v0.2.2/aura-web-server-linux-arm64"
-      sha256 "a2d38614bf6cd962df0b691426b2cd5e7b82ab3d08d9af55b5b9b5b0ff24f513"
+      url "https://github.com/mezmo/aura/releases/download/v0.2.3/aura-web-server-linux-arm64"
+      sha256 "b6632445e17c5d9596dfe39584a0fd01492a91bed9d79ea977d299103fef52b6"
     end
     on_intel do
-      url "https://github.com/mezmo/aura/releases/download/v0.2.2/aura-web-server-linux-amd64"
-      sha256 "655e5713eee40452624d932d7fec2d2c372fccefd4a40dbd0f0594508e9ce88b"
+      url "https://github.com/mezmo/aura/releases/download/v0.2.3/aura-web-server-linux-amd64"
+      sha256 "2ab275ab014d07853b8a5700b595cd5378122d9d058f7c8b60ee5fe8967acc41"
     end
   end
 

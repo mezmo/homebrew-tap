@@ -5,23 +5,23 @@ class Aura < Formula
 
   on_macos do
     on_arm do
-      url "https://github.com/mezmo/aura/releases/download/v0.2.2/aura-darwin-arm64"
-      sha256 "c0b1afbcbd30fb4aea55145bf6b305f4950fff18e88df5f0a8eae444042eada4"
+      url "https://github.com/mezmo/aura/releases/download/v0.2.3/aura-darwin-arm64"
+      sha256 "9b3c567c678878348522a5e6760479579dc0556fdc06f5baa85f55d363518717"
     end
     on_intel do
-      url "https://github.com/mezmo/aura/releases/download/v0.2.2/aura-darwin-amd64"
-      sha256 "4bbdc70806717be373d31be50c207f96701cc351bcca6d0d6db8d5747675362f"
+      url "https://github.com/mezmo/aura/releases/download/v0.2.3/aura-darwin-amd64"
+      sha256 "6237e934132b9564942fa68c3df0f389ecf7ef7e597e98b7b2f50875da7e9b00"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/mezmo/aura/releases/download/v0.2.2/aura-linux-arm64"
-      sha256 "5aeb8fec20a849ccae730cca2c4e1d2aa80cfecd48faf7bf227eaadbee6b07c9"
+      url "https://github.com/mezmo/aura/releases/download/v0.2.3/aura-linux-arm64"
+      sha256 "55ae81ae886575abbfb6c068ae10a88400268c4ab4a7beb9ab0143d3e9122873"
     end
     on_intel do
-      url "https://github.com/mezmo/aura/releases/download/v0.2.2/aura-linux-amd64"
-      sha256 "8b238a31ad5da243787074191309a172f055f447e1d3f6f63db4bf737af41e6c"
+      url "https://github.com/mezmo/aura/releases/download/v0.2.3/aura-linux-amd64"
+      sha256 "28d3a0fb73ceed6399626eefb0736f9ef02c65daa5e4f73a26a888b4fd59c087"
     end
   end
 
